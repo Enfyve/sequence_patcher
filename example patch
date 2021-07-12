@@ -1,0 +1,15 @@
+[Patch with hint|0012A0]
+CC 00 CC 00 CC 00
+00 CC 00 CC 00 CC
+
+[Patch without hint]
+DE AD BE EF DE AD BE EF
+FE ED F0 0D FE ED F0 0D
+
+[Write more than match]
+CC 00 CC 00 CC 00
+00 CC 00 CC 00 CC 00 CC 00 CC 00 CC
+
+[Write less than match]
+00 CC 00 CC 00 CC 00 CC 00 CC 00 CC
+00 CC 00 CC FF CC
